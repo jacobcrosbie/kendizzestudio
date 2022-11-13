@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- SEO Meta Tags -->
-        <meta name="description" content="Your description">
-        <meta name="author" content="Your name">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-        <meta property="og:site_name" content="" /> <!-- website name -->
-        <meta property="og:site" content="" /> <!-- website link -->
-        <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-        <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-        <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
 
-        <!-- Webpage Title -->
-        <title>Kendizze Studio</title>
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+    <meta property="og:site_name" content="" /> <!-- website name -->
+    <meta property="og:site" content="" /> <!-- website link -->
+    <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
-        <!-- Styles -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/fontawesome-all.css" rel="stylesheet">
-        <link href="css/swiper.css" rel="stylesheet">
-        <link href="css/magnific-popup.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
+    <!-- Webpage Title -->
+    <title>Kendizze Studio</title>
 
-        <!-- Favicon  -->
-        <link rel="icon" href="images/scissors.svg">
-    </head>
-    <body data-spy="scroll" data-target=".fixed-top">
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
-        <!-- Navigation -->
+    <!-- Favicon  -->
+    <link rel="icon" href="images/scissors.svg">
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
 
@@ -52,13 +56,14 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link page-scroll" href="index.html#header">Home<span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="index.html#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="article.html">Barbers & Hairdressers</a>
+                        <a class="nav-link page-scroll" href="barbers.html">Barbers & Hairdressers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="index.html#contact">Contact</a>
@@ -77,71 +82,74 @@
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
 
-        <!-- Header -->
-        <header id="booking-header" class="ex-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-10 offset-xl-1">
-                        <h1>Bookings</h1>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </header> <!-- end of ex-header -->
-        <!-- end of header -->
-        <iframe id="ifrm" src='https://outlook.office365.com/owa/calendar/Bookings@KendizzeStudio.onmicrosoft.com/bookings/'
-         frameborder="0" width='100%' height="100%" scrolling='no' style="overflow: hidden; display: block;"></iframe>
-        <!-- Footer -->
+    <!-- Header -->
+    <header id="booking-header" class="ex-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <h1>Bookings</h1>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of ex-header -->
+    <!-- end of header -->
 
 
-        <!-- Scripts -->
-        <script>
-            /*var width = window.innerWidth;
-            if(width < 1100){
-                document.getElementById("ifrm").setAttribute("height", "2700px");
-            } else {
-                document.getElementById("ifrm").setAttribute("height", "2150px");
-            }*/
-            var myElement = document.getElementById("booking-header");
-            //var bounding = myElement.getBoundingClientRect();
-/*
-            if (bounding.top >= 0 && bounding.left >= 0 && bounding.right <= window.innerWidth && bounding.bottom <= window.innerHeight) {
-                console.log("Element is in the viewport!");
-                document.getElementById("ifrm").setAttribute("scrolling", "no");
-            } else {
-                console.log('Element is NOT in the viewport!');
-                document.getElementById("ifrm").setAttribute("scrolling", "yes");
-            }
 
-            */
-           /*
-            var observer = new IntersectionObserver(function(entries) {
+    <!--<iframe src='https://outlook.office365.com/owa/calendar/KendizzeStudio1@KendizzeStudio.onmicrosoft.com/bookings/'
+        width='100%' height='100%' scrolling='yes' style='border:0'></iframe>-->
+    <!-- Footer -->
+
+
+    <!-- Scripts -->
+    <!--<script>
+        /*var width = window.innerWidth;
+        if(width < 1100){
+            document.getElementById("ifrm").setAttribute("height", "2700px");
+        } else {
+            document.getElementById("ifrm").setAttribute("height", "2150px");
+        }*/
+        var myElement = document.getElementById("booking-header");
+        //var bounding = myElement.getBoundingClientRect();
+        /*
+                    if (bounding.top >= 0 && bounding.left >= 0 && bounding.right <= window.innerWidth && bounding.bottom <= window.innerHeight) {
+                        console.log("Element is in the viewport!");
+                        document.getElementById("ifrm").setAttribute("scrolling", "no");
+                    } else {
+                        console.log('Element is NOT in the viewport!');
+                        document.getElementById("ifrm").setAttribute("scrolling", "yes");
+                    }
+
+                    */
+        /*
+         var observer = new IntersectionObserver(function(entries) {
+         // since there is a single target to be observed, there will be only one entry
+         if(entries[0]['isIntersecting'] === true) {
+             if(entries[0]['intersectionRatio'] === 1){
+                 console.log('Target is fully visible in the screen');
+                 document.getElementById("ifrm").setAttribute("scrolling", "no");
+             }else if(entries[0]['intersectionRatio'] > 0.75){
+                 console.log('More than 50% of target is visible in the screen');
+                 document.getElementById("ifrm").setAttribute("scrolling", "no");
+             }else{
+                 console.log('Less than 50% of target is visible in the screen');
+                 document.getElementById("ifrm").setAttribute("scrolling", "yes");
+
+             }
+         } else {
+             console.log('Target is not visible in the screen');
+             document.getElementById("ifrm").setAttribute("scrolling", "yes");
+         }
+         }, { threshold: [0, 0.75, 1] });
+         observer.observe(document.querySelector("#booking-header"));
+         */
+        var observer = new IntersectionObserver(function (entries) {
             // since there is a single target to be observed, there will be only one entry
-            if(entries[0]['isIntersecting'] === true) {
-                if(entries[0]['intersectionRatio'] === 1){
-                    console.log('Target is fully visible in the screen');
-                    document.getElementById("ifrm").setAttribute("scrolling", "no");
-                }else if(entries[0]['intersectionRatio'] > 0.75){
-                    console.log('More than 50% of target is visible in the screen');
-                    document.getElementById("ifrm").setAttribute("scrolling", "no");
-                }else{
-                    console.log('Less than 50% of target is visible in the screen');
-                    document.getElementById("ifrm").setAttribute("scrolling", "yes");
-
-                }
-            } else {
-                console.log('Target is not visible in the screen');
-                document.getElementById("ifrm").setAttribute("scrolling", "yes");
-            }
-            }, { threshold: [0, 0.75, 1] });
-            observer.observe(document.querySelector("#booking-header"));
-            */
-            var observer = new IntersectionObserver(function(entries) {
-            // since there is a single target to be observed, there will be only one entry
-            if(entries[0]['isIntersecting'] === true) {
-                if(entries[0]['intersectionRatio'] > 0.9){
+            if (entries[0]['isIntersecting'] === true) {
+                if (entries[0]['intersectionRatio'] > 0.9) {
                     console.log('More than 90% of target is visible in the screen');
                     document.getElementById("ifrm").setAttribute("scrolling", "yes");
-                }else{
+                } else {
                     console.log('Less than 90% of target is visible in the screen');
                     document.getElementById("ifrm").setAttribute("scrolling", "no");
                 }
@@ -149,15 +157,19 @@
                 console.log('Target is not visible in the screen');
                 document.getElementById("ifrm").setAttribute("scrolling", "no");
             }
-            }, { threshold: [0, 0.9] });
-            observer.observe(document.querySelector("#ifrm"));
+        }, { threshold: [0, 0.9] });
+        observer.observe(document.querySelector("#ifrm"));
 
-        </script>
-        <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-        <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-        <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-        <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    </body>
+    </script>-->
+    <script src="//widget.simplybook.it/v2/widget/widget.js"></script>
+    <script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/testerbookings.simplybook.it","theme":"minimal","theme_settings":{"timeline_show_end_time":"0","timeline_modern_display":"as_slots","hide_company_label":"1","timeline_hide_unavailable":"1","hide_past_days":"0","sb_base_color":"#007a5e","btn_color_1":"#007a5e,#007a5e,#007a5e","link_color":"#007a5e","display_item_mode":"block","body_bg_color":"#ffffff","sb_review_image":"","dark_font_color":"#2b212b","light_font_color":"#ffffff","sb_company_label_color":"#000000","hide_img_mode":"1","sb_busy":"#aaa6aa","sb_available":"#2b212b"},"timeline":"modern","datepicker":"top_calendar","is_rtl":false,"app_config":{"allow_switch_to_ada":0,"predefined":[]}});</script>
+
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+
 </html>
