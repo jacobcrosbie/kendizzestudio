@@ -34,6 +34,9 @@
 
     <!-- Favicon  -->
     <link rel="icon" href="images/scissors.svg">
+    <style>
+        header.widget{padding: 0px;}
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
@@ -87,83 +90,56 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1">
-                    <h1>Bookings</h1>
+                    <h1>Booking</h1>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </header> <!-- end of ex-header -->
     <!-- end of header -->
 
+    <!-- <script src="//widget.simplybook.it/v2/widget/widget.js"></script>
+<script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/kendizzestudio.simplybook.it","theme":"minimal","theme_settings":{"timeline_show_end_time":"1","timeline_modern_display":"as_slots","hide_company_label":"1","timeline_hide_unavailable":"1","hide_past_days":"0","sb_base_color":"#007a5e","btn_color_1":"#007a5e,#007a5e,#007a5e","link_color":"#007a5e","display_item_mode":"block","body_bg_color":"#ffffff","sb_review_image":"4","sb_review_image_preview":"\/uploads\/kendizzestudio\/image_files\/preview\/25c8860e63f3544a7a2d0e65dc15803b.jpeg","dark_font_color":"#2b212b","light_font_color":"#ffffff","sb_company_label_color":"#007a5e","hide_img_mode":"1","sb_busy":"#aaa6aa","sb_available":"#2b212b"},"timeline":"modern","datepicker":"top_calendar","is_rtl":false,"app_config":{"clear_session":0,"allow_switch_to_ada":0,"predefined":[]}});</script> -->
+<script src="//widget.simplybook.it/v2/widget/widget.js"></script>
+<script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/kendizzestudio.simplybook.it","theme":"minimal","theme_settings":{"timeline_show_end_time":"0","timeline_modern_display":"as_slots","hide_company_label":"0","timeline_hide_unavailable":"1","hide_past_days":"0","sb_base_color":"#007a5e","btn_color_1":"#007a5e,#007a5e,#007a5e","link_color":"#007a5e","display_item_mode":"block","body_bg_color":"#ffffff","sb_review_image":"","dark_font_color":"#2b212b","light_font_color":"#ffffff","sb_company_label_color":"#007a5e","hide_img_mode":"1","sb_busy":"#aaa6aa","sb_available":"#2b212b"},"timeline":"modern","datepicker":"top_calendar","is_rtl":false,"app_config":{"clear_session":1,"allow_switch_to_ada":0,"predefined":[]}});</script>
+        <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" style="margin-left: auto; margin-right: auto;">
+                    <div class="footer-col third" style="margin-left: auto; margin-right: auto;">
+                        <span class="fa-stack">
+                            <a href="https://www.instagram.com/kendizzestudio/" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <p class="p-small">For any queries please contact us. Call:
+                            <a href="tel:+447506250157"><strong>+447506250157</strong></a></p>
+                    </div> <!-- end of footer-col -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->
+    <!-- end of footer -->
 
 
-    <!--<iframe src='https://outlook.office365.com/owa/calendar/KendizzeStudio1@KendizzeStudio.onmicrosoft.com/bookings/'
-        width='100%' height='100%' scrolling='yes' style='border:0'></iframe>-->
-    <!-- Footer -->
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © kendizzestudio</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
 
 
-    <!-- Scripts -->
-    <!--<script>
-        /*var width = window.innerWidth;
-        if(width < 1100){
-            document.getElementById("ifrm").setAttribute("height", "2700px");
-        } else {
-            document.getElementById("ifrm").setAttribute("height", "2150px");
-        }*/
-        var myElement = document.getElementById("booking-header");
-        //var bounding = myElement.getBoundingClientRect();
-        /*
-                    if (bounding.top >= 0 && bounding.left >= 0 && bounding.right <= window.innerWidth && bounding.bottom <= window.innerHeight) {
-                        console.log("Element is in the viewport!");
-                        document.getElementById("ifrm").setAttribute("scrolling", "no");
-                    } else {
-                        console.log('Element is NOT in the viewport!');
-                        document.getElementById("ifrm").setAttribute("scrolling", "yes");
-                    }
 
-                    */
-        /*
-         var observer = new IntersectionObserver(function(entries) {
-         // since there is a single target to be observed, there will be only one entry
-         if(entries[0]['isIntersecting'] === true) {
-             if(entries[0]['intersectionRatio'] === 1){
-                 console.log('Target is fully visible in the screen');
-                 document.getElementById("ifrm").setAttribute("scrolling", "no");
-             }else if(entries[0]['intersectionRatio'] > 0.75){
-                 console.log('More than 50% of target is visible in the screen');
-                 document.getElementById("ifrm").setAttribute("scrolling", "no");
-             }else{
-                 console.log('Less than 50% of target is visible in the screen');
-                 document.getElementById("ifrm").setAttribute("scrolling", "yes");
-
-             }
-         } else {
-             console.log('Target is not visible in the screen');
-             document.getElementById("ifrm").setAttribute("scrolling", "yes");
-         }
-         }, { threshold: [0, 0.75, 1] });
-         observer.observe(document.querySelector("#booking-header"));
-         */
-        var observer = new IntersectionObserver(function (entries) {
-            // since there is a single target to be observed, there will be only one entry
-            if (entries[0]['isIntersecting'] === true) {
-                if (entries[0]['intersectionRatio'] > 0.9) {
-                    console.log('More than 90% of target is visible in the screen');
-                    document.getElementById("ifrm").setAttribute("scrolling", "yes");
-                } else {
-                    console.log('Less than 90% of target is visible in the screen');
-                    document.getElementById("ifrm").setAttribute("scrolling", "no");
-                }
-            } else {
-                console.log('Target is not visible in the screen');
-                document.getElementById("ifrm").setAttribute("scrolling", "no");
-            }
-        }, { threshold: [0, 0.9] });
-        observer.observe(document.querySelector("#ifrm"));
-
-    </script>-->
-    <script src="//widget.simplybook.it/v2/widget/widget.js"></script>
+    <!--<script src="//widget.simplybook.it/v2/widget/widget.js"></script>
     <script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/testerbookings.simplybook.it","theme":"minimal","theme_settings":{"timeline_show_end_time":"0","timeline_modern_display":"as_slots","hide_company_label":"1","timeline_hide_unavailable":"1","hide_past_days":"0","sb_base_color":"#007a5e","btn_color_1":"#007a5e,#007a5e,#007a5e","link_color":"#007a5e","display_item_mode":"block","body_bg_color":"#ffffff","sb_review_image":"","dark_font_color":"#2b212b","light_font_color":"#ffffff","sb_company_label_color":"#000000","hide_img_mode":"1","sb_busy":"#aaa6aa","sb_available":"#2b212b"},"timeline":"modern","datepicker":"top_calendar","is_rtl":false,"app_config":{"allow_switch_to_ada":0,"predefined":[]}});</script>
-
+    -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
