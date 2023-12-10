@@ -1640,12 +1640,13 @@ a:hover.back-to-top {
 	.basic-2 .image-container {
 		position: absolute;
 		right: 0;
-		bottom: -2rem;
+		/* bottom: -2rem; */
 		max-width: 605px;
 	}
 
 	.basic-2 .text-area {
 		width: 47%;
+		margin-top: 4.5rem;
 	}
 
 	.basic-2 .text-container {
