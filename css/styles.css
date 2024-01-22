@@ -466,10 +466,11 @@ input[type='checkbox'] {
 
 .offcanvas-collapse {
 	position: fixed;
-	top: 4.25rem;  /*adjusts the height between the top of the page and the offcanvas menu */
+	top: 0rem;  /*adjusts the height between the top of the page and the offcanvas menu */
 	bottom: 0;
 	left: 100%;
 	width: 100%;
+	padding-top: 4.75rem;
 	padding-right: 1rem;
 	padding-left: 1rem;
 	overflow-y: auto;
@@ -484,10 +485,11 @@ input[type='checkbox'] {
 	visibility: visible;
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
+	z-index: -1;
 }
 
 .navbar .navbar-nav {
-	margin-top: 0.75rem;
+	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
 
@@ -1388,6 +1390,7 @@ a:hover.back-to-top {
 		background-color: transparent;
 		overflow-y: visible;
 		visibility: visible;
+		padding-top: 0rem;
 	}
 
 	.offcanvas-collapse.open {
